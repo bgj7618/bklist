@@ -4,7 +4,7 @@
 
 ### Gallary
 ***
-![index](https://user-images.githubusercontent.com/88354788/131074527-be97534b-7884-4dc8-8deb-c478e4f9f077.png)
+![index](https://user-images.githubusercontent.com/88354788/131091304-ed7683ff-cfb4-4e82-a3b7-b071defd7862.png)
 
 
 ### 기획의도
