@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333333;
+}
+
+/* header start */
+
+#header{
+    width: 100%;
+    min-width: 1200px;
+    height: 800px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+}
+
+.msImg{
+    overflow: hidden;
+}
+
+.msImg img{
+    position: absolute;    
+    top: 0;
+    left: 50%;
+    margin-left: -960px;    
+}
+
+.headerIn{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    height: 800px;
+    position: relative;
+}
+
+.headerIn .mainMenu{
+    margin: 60px auto 0 auto;
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+
+.headerIn .mainMenu .logo{    
+    width: 250px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+.headerIn .mainMenu .logo a{
+    background-image: url(../img/logo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    display: block;
+    background-size: 220px 70px;
+    width: 100%;
+    height: 100%;
+}
+
+.headerIn .mainMenu .gnb{
+    height: 90px;
+    line-height: 90px;
+    font-size: 18px;
+    color: #606060;
+    font-weight: 700;
+    width: 700px;
+}
+
+.headerIn .mainMenu .gnb ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerIn .mainMenu .util{
+    line-height: 90px;
+}
+
+.headerIn .mainMenu .util ul{
+    display: flex;
+}
+
+.headerIn .mainMenu .util .sc a{
+    background-image: url(../img/아이콘/search.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 35px 10px;
+    text-indent: -99999px;
+}
+
+.headerIn .mainMenu .util .allMenu a{
+    background-image: url(../img/아이콘/sitemap_ico.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: 35px 10px;
+    text-indent: -99999px;
+}
+
+
+.headerIn .userMenu{
+    display: flex;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+
+.headerIn .userMenu .member ul{
+    display: flex;
+    color: rgb(36, 36, 36);
+    align-items: center;
+    height: 50px;
+}
+
+.headerIn .userMenu .member ul li{
+    width: 80px;
+}
+
+.headerIn .userMenu .member ul li:not(:last-child)::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: rgb(36, 36, 36);
+    margin: 5px 10px 0;
+    vertical-align: top;
+}
+
+.headerIn .userMenu .sns ul{
+    display: flex;
+}
+
+.headerIn .userMenu .sns ul li{
+    margin-right: 10px;
+}
+
+.headerIn .userMenu .sns .sBtn li a{
+    background-image: url(../img/아이콘/sns_icon.png);
+    text-indent: -99999px;
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+
+.headerIn .userMenu .sns .sBtn .blog a{
+    background-position: 35px 0;
+}
+
+.headerIn .userMenu .sns .sBtn .insta a{
+    background-position: 78px 0;
+}
+
+/* header end */
+
+
+/* main start */
+
+.section1{
+    width: 1200px;
+    height: 735px;
+    margin: 0 auto;
+    
+}
+
+.section1 .s1List1{
+    height: 152px;
+    border-bottom: 1px solid rgba(147, 149, 151, 0.5);
+    margin-bottom: 30px;
+}
+
+.section1 .s1List1 ul{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 .s1List1 li a{
+    text-align: center;
+}
+
+.section1 .s1List1 li .s1LImg1{
+    display: block;
+    background-image: url(../img/아이콘/free-icon-success-4185811.svg);
+    background-size: 80px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+
+.section1 .s1List1 li .s1LImg2{
+    display: block;
+    background-image: url(../img/아이콘/free-icon-list-4185572.png);
+    background-size: 80px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+
+.section1 .s1List1 li .s1LImg3{
+    display: block;
+    background-image: url(../img/아이콘/free-icon-question-4185819.png);
+    background-size: 80px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+
+.section1 .s1List1 li .s1LText{
+    font-size: 16px;
+    border: 700;
+}
+
+.section1 .s1List2{
+    position: relative;
+}
+
+.section1 .s1List2 h2{
+    background-image: url(../img/아이콘/free-icon-motivation-4185790.svg);
+    background-size: 40px auto;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: 22px; 
+    margin-bottom: 40px;
+}
+
+.section1 .s1List2 h2 span{
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgb(147, 149, 151);
+}
+
+.section1 .s1List2 .addBtn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.section1 .s1List2 .addBtn a{
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-indent: -99999px;
+}
+
+.section1 .s1List2 .addBtn span{
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.section1 .s1List2 .addBtn span::before{
+    content: "";
+    width: 24px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 11px;        
+    left: 0;
+}
+
+.section1 .s1List2 .addBtn span::after{
+    content: "";
+    width: 2px;
+    height: 24px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 11px;
+}
+
+.section1 .s1List2 h3{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: rgba(0,0,255,0.7);
+    margin-bottom: 20px;
+}
+
+.section1 .s1List2Box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 .s1List2Box .s1LBImg img{
+    width: 205px;
+    height: 235px;
+}
+
+
+
+
+
+
+/* main end */
