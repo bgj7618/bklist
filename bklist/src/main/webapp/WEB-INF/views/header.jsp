@@ -1,34 +1,29 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <title>그래서 뭐 할래?</title>
-</head>
-<body>
-	<div id="wrap">
-        <header id="header">
+
             <div class="msImg">
-                <img src="../img/header_main.png" alt="">
+                <img src="../resources/img/header_main.png" alt="">
             </div>
             <div class="headerIn">
                 <div class="mainMenu">
                     <h1 class="logo">
-                        <a href="#">logo</a>
+                        <a href="http://localhost:8080/index">logo</a>
                     </h1>
                     <nav class="gnb">
-                        <ul>
+                        <ul class="gnbList">
                             <li><a href="#">기획의도</a></li>
                             <li><a href="#">국내 즐기기</a></li>
                             <li><a href="#">해외 즐기기</a></li>
-                            <li><a href="#">게시판</a></li>
+                            <li class="board">
+                                <a href="/index/review.bo">게시판</a>
+                                <ul class="subMenu">
+                                    <li><a href="/index/review.bo">이용후기</a></li>                                    
+                                    <li><a href="/index/event.bo">이벤트</a></li>
+                                    <li><a href="/index/notice.bo">공지사항</a></li>
+                                    <li><a href="/index/qna.bo">질문답변</a></li>
+                                </ul>                            
+                            </li>
                         </ul>
                     </nav> <!--.gnb-->
                     <div class="util">
@@ -62,6 +57,4 @@
                     </div> <!--.sns-->
                 </div> <!--.userMenu-->                
             </div> <!--.headerIn-->
-        </header> <!-- #header-->
-</body>
-</html>
+

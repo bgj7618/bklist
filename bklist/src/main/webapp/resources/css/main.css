@@ -12,7 +12,6 @@ body{
 #header{
     width: 100%;
     min-width: 1200px;
-    height: 150px;
     position: relative;
     background-color: white;
     overflow: hidden;
@@ -26,14 +25,14 @@ body{
     position: absolute;    
     top: 0;
     left: 50%;
-    margin-left: -960px;    
+    margin-left: -960px;
 }
 
 .headerIn{
     width: 1200px;
     margin: 0 auto;
     padding: 0;
-    height: 800px;
+    height: 140px;
     position: relative;
 }
 
@@ -41,7 +40,6 @@ body{
     margin: 60px auto 0 auto;
     display: flex;
     width: 100%;
-    height: 90px;
 }
 
 .headerIn .mainMenu .logo{    
@@ -61,16 +59,38 @@ body{
     height: 100%;
 }
 
-.headerIn .mainMenu .gnb{
+.headerIn .mainMenu .gnb .gnbList{
     height: 90px;
     line-height: 90px;
     font-size: 18px;
     color: #606060;
     font-weight: 700;
     width: 700px;
+    position: relative;
 }
 
-.headerIn .mainMenu .gnb ul{
+.headerIn .mainMenu .gnb .gnbList{
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerIn .mainMenu .gnb .gnbList .board:hover .subMenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.headerIn .mainMenu .gnb .board .subMenu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    background-color: rgba(147, 149, 151, 0.3);
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    z-index: 10;
     display: flex;
     justify-content: space-around;
 }
@@ -84,7 +104,7 @@ body{
 }
 
 .headerIn .mainMenu .util .sc a{
-    background-image: url(../img/아이콘/search.png);
+    background-image: url(../img/icon/search.png);
     background-repeat: no-repeat;
     display: block;
     width: 25px;
@@ -94,7 +114,7 @@ body{
 }
 
 .headerIn .mainMenu .util .allMenu a{
-    background-image: url(../img/아이콘/sitemap_ico.gif);
+    background-image: url(../img/icon/sitemap_ico.gif);
     background-repeat: no-repeat;
     background-position: center;
     display: block;
@@ -103,7 +123,6 @@ body{
     margin: 35px 10px;
     text-indent: -99999px;
 }
-
 
 .headerIn .userMenu{
     display: flex;
@@ -143,7 +162,7 @@ body{
 }
 
 .headerIn .userMenu .sns .sBtn li a{
-    background-image: url(../img/아이콘/sns_icon.png);
+    background-image: url(../img/icon/sns_icon.png);
     text-indent: -99999px;
     display: block;
     width: 34px;
@@ -165,7 +184,16 @@ body{
 
 /* .section1 start */
 .section1{
-    height: 650px;
+    height: 600px;
+    position: relative;
+}
+
+.section1 .sc1Img img{    
+    position: absolute;    
+    top: -50px;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 1;
 }
 
 
@@ -198,7 +226,7 @@ body{
 
 .section2 .sc2List1 li .s2LImg1{
     display: block;
-    background-image: url(../img/아이콘/free-icon-success-4185811.svg);
+    background-image: url(../img/icon/free-icon-success-4185811.svg);
     background-size: 80px auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -208,7 +236,7 @@ body{
 
 .section2 .sc2List1 li .s2LImg2{
     display: block;
-    background-image: url(../img/아이콘/free-icon-list-4185572.png);
+    background-image: url(../img/icon/free-icon-list-4185572.png);
     background-size: 80px auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -218,7 +246,7 @@ body{
 
 .section2 .sc2List1 li .s2LImg3{
     display: block;
-    background-image: url(../img/아이콘/free-icon-question-4185819.png);
+    background-image: url(../img/icon/free-icon-question-4185819.png);
     background-size: 80px auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -236,7 +264,7 @@ body{
 }
 
 .section2 .sc2List2 h2{
-    background-image: url(../img/아이콘/free-icon-motivation-4185790.svg);
+    background-image: url(../img/icon/free-icon-motivation-4185790.svg);
     background-size: 40px auto;
     height: 40px;
     line-height: 40px;
@@ -348,7 +376,7 @@ body{
 }
 
 .section3 .section3In h2{
-    background-image: url(../img/아이콘/free-icon-video-call-4185730.svg);
+    background-image: url(../img/icon/free-icon-video-call-4185730.svg);
     background-size: 40px auto;
     background-repeat: no-repeat;
     line-height: 40px;

@@ -15,13 +15,13 @@
 <body>
 	<div id="wrap">
         <header id="header">
-			<%@ include file="header.jsp" %>
+			<%@ include file="../header.jsp" %>
         </header> <!-- #header-->
 		<main id="container">
-			<%@ include file="main.jsp" %>
+			<%@ include file="notice_bo.jsp" %>
 		</main> <!--#container-->
 		<footer id="footer">
-			<%@ include file="footer.jsp" %>
+			<%@ include file="../footer.jsp" %>
         </footer> <!--#footer-->
 </body>
 </html>
