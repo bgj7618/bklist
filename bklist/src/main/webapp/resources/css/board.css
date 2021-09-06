@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+#container .boIn{
+	margin: 0 auto;
+	padding: 40px;
+	width: 1200px;
+	min-width: 960px;
+}
+
+#container .boIn .boText{
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+#container .boIn .boTable{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+#container .boIn .boTable tr{
+    line-height: 30px;
+}
+
+#container .boIn .boTable th{
+    border-top: 1px solid rgba(147, 149, 151, 1);
+    border-bottom: 1px solid rgba(147, 149, 151, 0.3);
+}
+
+#container .boIn .boTable td{
+    border-bottom: 1px solid rgba(147, 149, 151, 0.3);
+}
+
+#container .boIn .boTable .boNo{
+    width: 70px;
+}
+
+#container .boIn .boTable .boTitle{
+    width: 150px;
+}
+
+#container .boIn .boTable .boWriter{
+    width: 70px;
+}
+
+#container .boIn .boTable .boRegdate{
+    width: 100px;
+}
+
+#container .boIn .boTable .boUpdate{
+    width: 100px;
+}
+
+#container .boIn .boTable .boCount{
+    width: 70px;
+}
+
+#container .boIn .boRegister{
+	display: flex;
+	justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+#container .boIn .boRegister .boRBTN{
+	background-color: white;
+	border: 1px solid rgba(147, 149, 151, 0.7);
+	padding: 5px 12px;
+}
+
+#container .boIn .boUtil{
+	width: 100%;
+	margin: 0 auto;
+    background-color: rgba(147, 149, 151, 0.1);
+}
+
+#container .boIn .boUtil .paging{
+	text-align: center;
+	display: flex;
+    justify-content: center;        
+    padding: 20px;
+    border-bottom: 1px solid rgba(147, 149, 151, 0.4);
+}
+
+#container .boIn .boUtil .paging li{
+    width: 20px;
+}
+
+#container .boIn .boUtil .boSearch form{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.boIn .boUtil .boSearch form input{
+    border: 1px solid rgba(147, 149, 151, 0.7);
+}
+
+
+.boIn .boUtil .boSearch form select{
+    border: 1px solid rgba(147, 149, 151, 0.7);
+}
+
+.boIn .boUtil .boSearch form .scBtn{
+    background-color: rgba(245, 223, 77, 1);
+    border: 0;
+    padding: 7px 12px;
+}

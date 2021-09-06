@@ -8,7 +8,7 @@
             <div class="headerIn">
                 <div class="mainMenu">
                     <h1 class="logo">
-                        <a href="http://localhost:8080/index">logo</a>
+                        <a href="/index">logo</a>
                     </h1>
                     <nav class="gnb">
                         <ul class="gnbList">

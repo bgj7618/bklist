@@ -11,5 +11,5 @@ public class BoardVO {
 	private String content; // 내용
 	private String writer; // 작성자
 	private Date regdate; //작성일자
-	private Date updatedate; // 수정일자
+	private Date updateDate; // 수정일자
 }

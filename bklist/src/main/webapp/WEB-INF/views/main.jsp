@@ -19,7 +19,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/index/review.bo">
                                 <p class="s2LImg2"></p>    
                                 <p class="s2LText">이용후기</p>
                             </a>

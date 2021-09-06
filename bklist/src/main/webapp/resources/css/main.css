@@ -140,7 +140,7 @@ body{
 }
 
 .headerIn .userMenu .member ul li{
-    width: 80px;
+    
 }
 
 .headerIn .userMenu .member ul li:not(:last-child)::after{
